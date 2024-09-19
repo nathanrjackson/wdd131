@@ -1,0 +1,56 @@
+.content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.does-list {
+    text-align: right;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.title {
+    letter-spacing: 0.2rem;
+}
+
+* {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body {
+    margin: 100px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+li {
+    text-align: left;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 15px;
+    color:#006EB6;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    font-weight: normal;
+    margin-bottom: 50px;
+}
