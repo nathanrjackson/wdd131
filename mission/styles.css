@@ -1,3 +1,9 @@
+* {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
 .content {
     max-width: 600px;
     margin-left: auto;
@@ -18,12 +24,6 @@
 
 .title {
     letter-spacing: 0.2rem;
-}
-
-* {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
 body {
