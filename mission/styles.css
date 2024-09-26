@@ -26,6 +26,15 @@
     letter-spacing: 0.2rem;
 }
 
+.dark {
+    color: white;
+    background-color: black;
+}
+
+.dark h3 {
+    color: rgb(160, 212, 237);
+}
+
 body {
     margin: 100px;
     border: 1px solid rgb(200, 200, 200);
