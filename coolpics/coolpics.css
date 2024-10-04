@@ -33,7 +33,7 @@ body {
 }
 
 header, a, footer {
-    background-color: rgb(140, 100, 230);
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -71,7 +71,7 @@ h1 {
 
 button {
     font-size: 20px;
-    background-color: rgb(140, 100, 230);
+    background-color: var(--primary-color);
     color: white;
     border: none;
 }
@@ -114,6 +114,7 @@ img {
     }
 
     a, button {
-        margin: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 }
