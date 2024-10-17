@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+.main-nav {
+    border-top: 2px solid #FFCAB1;
+    border-bottom: 2px solid #FFCAB1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+}
+
+.main-content {
+    padding-top: 25px;
+}
+
+.main-content img {
+    padding: 25px;
+}
+
+.filter p {
+    text-align: left;
+}
+
+.book h2 {
+    font-size: 35px;
+}
+
+h2, h3, h4, p, a {
+    font-family: "Afacad Flux", sans-serif;
+    color: #659157;
+    font-size: 25px;
+}
+
+h1, .book h2 {
+    font-family: "PT Serif", serif;
+    color: #69A2B0;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Grid related things */
+
+.main-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 125px);
+    column-gap: 10px;
+    justify-content: end;
+    justify-items: end;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 20px;
+}
+
+.book-info, .book, .filter {
+    padding: 10px;
+}
