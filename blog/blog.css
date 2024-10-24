@@ -22,14 +22,32 @@ body {
 
 .main-content img {
     padding: 25px;
+    display: block;
+    margin: 0 auto;
 }
 
 .filter p {
-    text-align: left;
+    justify-items: left;
+}
+
+.filter {
+    border: 2px solid #FFCAB1;
+    margin-right: 100px;
 }
 
 .book h2 {
     font-size: 35px;
+}
+
+.book-info {
+    justify-items: right;
+    text-align: right;
+    border-right: 2px solid #FFCAB1;
+}
+
+.book, .book-info {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 h2, h3, h4, p, a {
