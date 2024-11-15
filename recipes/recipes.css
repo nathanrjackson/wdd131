@@ -1,0 +1,148 @@
+/* Start import */
+
+:root {
+--primary-color: #1B98E0;
+--secondary-color: #59c3c3;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: "Merienda";
+}
+
+/* End import */
+/* Start general */
+
+* {
+    font-family: var(--primary-font);
+    max-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo h1, 
+.recipe h1 {
+    font-family: var(--secondary-font);
+}
+
+/* End font */
+/* Start logo */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* End logo */
+/* Start search */
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.search input {
+    text-align: left;
+    height: 40px;
+    width: 80vw;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid black;
+}
+
+.search img {
+    height: auto;
+    width: 30px;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid black;
+}
+
+/* End search */
+/* Start recipe */
+
+.recipe {
+    border: 1px solid black;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe img {
+    max-width: 400px;
+    width: 75%;
+    align-self: center;
+}
+
+.recipe h1,
+p,
+.rating,
+span {
+    text-align: left;
+}
+
+.recipe p {
+    margin-top: 5px;
+    margin-left: 12.5%;
+    width: 55px;
+    padding: 5px;
+    text-transform: lowercase;
+    border: 1px solid black;
+}
+
+.recipe h1 {
+    margin-left: 12.5%;
+    color: var(--primary-color);
+}
+
+.rating {
+    margin-left: 12.5%;
+}
+
+/* End recipe */
+/* Start social */
+
+.social {
+    align-self: flex-end;
+}
+
+.social img {
+    width: 50px;
+}
+
+/* End social */
+
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 800px) {
+    .recipe {
+        flex-direction: row;
+    }
+}
