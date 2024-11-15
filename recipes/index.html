@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Nathan Jackson">
+    <meta name="description" content="A fun little recipe book thing">
+    <meta property="og:title" content="RecipeBook">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A fun little recipe book thing">
+    <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fhealth-food&psig=AOvVaw3MqAA1VmCFwyoro_fnEPf4&ust=1731778838924000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDW84Xx3okDFQAAAAAdAAAAABAE">
+    <meta property="og:url" content="https://nathanrjackson.github.io/wdd131/recipes/">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>RecipeBook</title>
     <link rel="stylesheet" href="recipes.css">
     <script src="main.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Merienda:wght@300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -29,20 +37,25 @@
             <img src="images/search.svg" alt="magnifying glass">
         </div>
         <div class="recipe">
-            <img src="images/apple-crisp.jpg" alt="apple crisp">
-            <p>Dessert</p>
-            <h1>Apple Crisp</h1>
-            <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-            >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-            </span>
+            <div class="food-picture">
+                <img src="images/apple-crisp.jpg" alt="apple crisp">
+            </div>
+            <div class="recipe-content">
+                <p class="food-type">Dessert</p>
+                <h1>Apple Crisp</h1>
+                <span
+                    class="rating"
+                    role="img"
+                    aria-label="Rating: 4 out of 5 stars"
+                >
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+                <p class="description">This apple crisp recipe is a simple yet delicious fall <br> dessert that's great served warm with vanilla ice <br> cream.</p>
+            </div>  
         </div>
     </main>
     <footer>
