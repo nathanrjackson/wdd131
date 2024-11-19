@@ -95,6 +95,7 @@ body {
 
 .food-picture {
     flex: 1; /* Image takes 50% width */
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,10 +123,9 @@ span {
     text-align: left;
 }
 
-.food-type {
+.recipe-content .food-type {
     margin-top: 5px;
-    margin-left: 12.5%;
-    width: 55px;
+    width: 100px;
     padding: 5px;
     text-transform: lowercase;
     border: 1px solid black;
@@ -134,6 +134,12 @@ span {
 .recipe h1 {
     margin-left: 12.5%;
     color: var(--primary-color);
+}
+
+.recipe-content h1,
+.recipe-content p,
+.description {
+    max-width: 600px;
 }
 
 .rating {
