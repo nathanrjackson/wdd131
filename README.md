@@ -1,3 +1,3 @@
 # wdd131
 
-Class Repository for WDD131 - Dynamic Web Fundamentals
+Class repository for WDD131 - Dynamic Web Fundamentals
