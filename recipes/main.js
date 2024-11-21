@@ -39,7 +39,7 @@ function ratingTemplate(rating) {
 	class="rating"
 	role="img"
 	aria-label="Rating: ${rating} out of 5 stars"
->`
+    >`
     // our ratings are always out of 5, so create a for loop from 1 to 5
     for (let i = 1; i <= 5; i++)
 
